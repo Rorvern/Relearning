@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="rps.css" />
+        <title>Rock, Paper, Scissors</title>
+    </head>
+    <body>
+        <h1 class="title">Rock, paper, scissors</h1>
+        <div class="btns">
+            <a class="back-btn" href="file:///Users/wimoore2018/Desktop/School/Code/Relearning/public/main.html">Back to game selection</a>
+        </div>
+        <div id="instructions">
+            <p> Choose an option below to begin </p>
+        </div>
+        <div id="choices">
+            <button onclick="playerChoice('rock')">Rock</button>
+            <button onclick="playerChoice('paper')">Paper</button>
+            <button onclick="playerChoice('scissors')">Scissors</button>
+        </div>
+        <div id="scoreboard">
+            <h2>Score</h2>
+            <p id="wins"></p>
+            <p id="losses"></p>
+            <p id="ties"></p>
+        </div>
+        <div>
+            <button onclick = "resetScore()">Reset scores</button>
+        </div>
+        <div id = "choiceOfComputer">
+            <p id = "compChoice"></p>
+        </div>
+        <script src="rps.js"></script>
+    </body>
+</html>
