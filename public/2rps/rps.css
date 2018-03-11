@@ -3,3 +3,7 @@
     justify-content: center;
     font-size: 200%;
 }
+
+.rock {
+    background: url("file:///Users/wimoore2018/Desktop/School/Code/Relearning/public/images/Rock.png");
+}

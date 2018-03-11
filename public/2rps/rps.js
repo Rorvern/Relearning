@@ -20,9 +20,9 @@ function updateScoreboard() {
     var winsP = document.querySelector("#wins");
     var lossesP = document.querySelector("#losses");
     var tiesP = document.querySelector("#ties");
-    winsP.innerHTML = "Wins : " + score.wins;
-    lossesP.innerHTML = "Losses : " + score.losses;
-    tiesP.innerHTML = "Ties : " + score.ties;
+    winsP.innerHTML = "You won " + score.wins + " times.";
+    lossesP.innerHTML = "You lost " + score.losses + " times.";
+    tiesP.innerHTML = "You tied " + score.ties + " times.";
 }
 
 function playerChoice(c) {
